@@ -4,7 +4,7 @@ Deepfrycapital pre‑launch hub. $MCJOB — drive‑thru market chaos, night‑s
 
 ## Live Site
 
-Visit the live site: [https://yourusername.github.io/deepfrycapital](https://yourusername.github.io/deepfrycapital)
+Visit the live site: [https://pushfirstpaniclater.github.io/deepfrycapital](https://pushfirstpaniclater.github.io/deepfrycapital)
 
 ## Development
 
