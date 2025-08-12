@@ -7,6 +7,7 @@ import Gallery from './components/Gallery';
 import Subscribe from './components/Subscribe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import menuMusic from './assets/audio/wage-cucking-theme.mp3';
 import './App.css';
 
 function App() {
@@ -59,7 +60,7 @@ function App() {
     console.log('handleEnter');
     const menuMusic = document.getElementById('menuMusic');
     try { 
-      menuMusic.volume = 0.25; 
+      menuMusic.volume = 0.15; 
       menuMusic.play().catch(()=>{}); 
     } catch(e){
       console.log('error', e);
@@ -72,7 +73,7 @@ function App() {
       <div className="noise"></div>
 
       {/* Faint PS2-style menu music (click to enable) */}
-      <audio id="menuMusic" src="/src/assets/audio/ps2-menu.mp3" loop></audio>
+      <audio id="menuMusic" src={menuMusic} loop></audio>
 
       {/* Intro Overlay */}
       {showIntro && <IntroOverlay onEnter={handleEnter} />}
