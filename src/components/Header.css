@@ -1,8 +1,0 @@
-/* Header-specific styles */
-.header-nav-link {
-  @apply hover:text-grease transition-colors duration-200;
-}
-
-.header-logo {
-  @apply inline-flex items-center gap-2;
-}
