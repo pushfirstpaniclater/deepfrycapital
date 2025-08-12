@@ -59,7 +59,7 @@ function App() {
     console.log('handleEnter');
     const menuMusic = document.getElementById('menuMusic');
     try { 
-      menuMusic.volume = 1.0; 
+      menuMusic.volume = 0.25; 
       menuMusic.play().catch(()=>{}); 
     } catch(e){
       console.log('error', e);
